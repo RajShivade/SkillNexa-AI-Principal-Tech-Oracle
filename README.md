@@ -1,4 +1,4 @@
-# **🚀 SkillNexa AI – Principal Tech Oracle:**
+# **🚀 SkillNexa AI (ChatBot Mentor) – Principal Tech Oracle:**
 
 🎓 SkillNexa AI is an advanced Streamlit-based Generative AI mentoring platform that simulates interactions with a Principal-level Software Engineer across multiple technical domains such as Python, SQL, MLOps, Generative AI, Deep Learning, and Agentic AI.
 
