@@ -4,6 +4,18 @@
 
 It leverages Google Gemini (via LangChain) to deliver context-aware, mentor-style responses in a futuristic, highly interactive UI.
 
+---
+
+## 🎯 Project Overview & Motivation
+
+Modern learners often struggle to access personalized, senior-level technical guidance while navigating advanced domains such as Generative AI, MLOps, and Agentic AI. Most learning platforms focus on generic     explanations rather than real-world engineering mentorship.
+
+SkillNexa AI was designed to bridge this gap by simulating the experience of learning directly from a Principal Software Engineer, available anytime and tailored to specific technical domains.
+
+The objective goes beyond answering questions. SkillNexa AI aims to mentor, guide, and build learner confidence by delivering clear, practical, and production-oriented insights—replicating how experienced        industry professionals teach, review, and advise in real-world environments.
+
+---
+
 ## **🔥 Key Highlights**
 
   🧠 LLM-Powered Mentorship (Google Gemini)
@@ -18,6 +30,8 @@ It leverages Google Gemini (via LangChain) to deliver context-aware, mentor-styl
 
   🔐 Environment-based API Key Management
 
+---
+
 ## **🧱 Tech Stack**
 
 | Layer         | Technology                   |
@@ -28,6 +42,24 @@ It leverages Google Gemini (via LangChain) to deliver context-aware, mentor-styl
 | Backend Logic | Python                       |
 | Environment   | python-dotenv                |
 | UI Design     | Glassmorphism + HUD-style UI |
+
+---
+
+## **🏗️ System Architecture**
+
+    User Interface (Streamlit)
+            ↓
+    Module Selection Engine
+            ↓
+    Domain-Specific System Prompt
+            ↓
+    LangChain Message Pipeline
+            ↓
+    Google Gemini LLM
+            ↓
+    Mentor-Style Response
+
+---
 
 ## **🧠 Core Modules Available**
 
@@ -45,6 +77,8 @@ It leverages Google Gemini (via LangChain) to deliver context-aware, mentor-styl
 
 Each module behaves like a dedicated senior mentor with domain-specific expertise.
 
+---
+
 ## **🗂️ Project Structure**
 
     SkillNexa-AI/
@@ -54,6 +88,7 @@ Each module behaves like a dedicated senior mentor with domain-specific expertis
     ├── requirements.txt        # Dependencies
     ├── README.md               # Project documentation
     └── assets/                 # (Optional) Images / icons
+---
 
 ## **⚙️ Installation & Setup**
 1️⃣ Clone the Repository
@@ -81,6 +116,8 @@ Create a .env file:
 
     streamlit run app.py
 
+---
+
 ## **🎨 UI & UX Features**
 
  - 🌌 Dark futuristic theme
@@ -93,17 +130,7 @@ Create a .env file:
 
  - 📡 Real-time mentor chat experience
 
-## **How It Works (Architecture)**
-
- - User selects a technical module
-
- - System initializes a domain-specific system prompt
-
- - User query + chat history is sent to Gemini via LangChain
-
- - Response is rendered as a mentor-style explanation
-
- - Session state maintains context per module
+---
 
 ## **🔐 Security & Best Practices**
 
@@ -114,6 +141,7 @@ Create a .env file:
  - Stateless LLM calls
 
  - Clean session management
+---
 
 ## **🚀 Future Enhancements**
 
@@ -127,6 +155,8 @@ Create a .env file:
 
 ✅ Deployment on Streamlit Cloud / AWS
 
+---
+
 ## **👨‍💻 Author**
 
 **Raj Shivade**
@@ -138,5 +168,7 @@ Create a .env file:
 **LinkedIn:** www.linkedin.com/in/raj-shivade25 
 
 **⭐ If You Like This Project**
+
+---
 
 Give it a ⭐ on GitHub — it really helps and motivates future improvements!
