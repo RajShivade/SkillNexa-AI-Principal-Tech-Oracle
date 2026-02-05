@@ -171,4 +171,10 @@ Create a .env file:
 
 ---
 
+## **OutPut
+
+https://github.com/user-attachments/assets/b15bd764-6201-484b-988c-edc106572d13
+
+:**
+
 Give it a ⭐ on GitHub — it really helps and motivates future improvements!
